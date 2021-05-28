@@ -8,6 +8,7 @@ public class User1LocalUser {
 		User1LocalUser u  = new User1LocalUser();
         System.out.println("Sum " + u.printSumOfFirstTenNumbers(x));
         System.out.println("Sum " + u.printSumOfNextTenNumbers(y));
+        u.newCodeToBeWorkedOn();
 	}
 	
 	public int printSumOfFirstTenNumbers(int n)
@@ -28,5 +29,10 @@ public class User1LocalUser {
 		   sum = sum + i;
 		}
 		return sum;
+	}
+	
+	public void newCodeToBeWorkedOn()
+	{
+		System.out.println("Development efforts?...");
 	}
 }
